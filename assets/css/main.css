@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+body{
+     background-color: dodgerblue;
+}
+
+.container_box{
+    width: 900px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.container {
+    width: 900px;
+    height:177px;
+    overflow: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+
+.card {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+
+.images {
+    width: auto;
+    height: 130px;
+    margin: 5px 5px;
+}
+
+.card_text_group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.card_btn_group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.card_background {
+    background-color: #d0ff00;
+}
+.box_i{
+    width: 200px;
+    height: 40px;   
+    border-radius: 5px;
+    background-color: white;
+    margin-left: -30px;
+     
+}
+
+.box_i1{
+    width: 200px;
+    height: 40px;   
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+  
+}
+
+.box_i3{
+    width: 200px;
+    height: 40px;   
+    border-radius: 5px;
+    background-color: white;
+    margin-left: -30px;
+
+}
+
+.box_i2{
+    width: 200px;
+    height: 40px;   
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+button{
+    width: 100px;
+    height: 40px;   
+    border-radius: 10px;
+    background-color: #11d611;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+button:hover{
+    background-color: transparent;
+    color: #11d611;
+    transition: .5s;
+    border: 1.5px solid #11d611;
+}
+.box_i4{
+    width: 430px;
+    height: 40px;   
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-left: -190px;
+}
+input{
+    border: none;
+    cursor: pointer;
+}
