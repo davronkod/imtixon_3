@@ -6,7 +6,6 @@ const i4El = document.querySelector(".box_i4");
 const btnEl = document.querySelector("#btn");
 const conEl = document.querySelector(".container");
 
-
 btnEl.addEventListener("submit", (e) => {
      e.preventDefault();
      let cardDiv = document.createElement("div");
