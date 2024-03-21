@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-   
-}
-body{
-     background-color: dodgerblue;
+
 }
 
-.container_box{
+body {
+    background-color: #1e90ff;
+}
+
+.container_box {
     width: 900px;
     height: 300px;
     align-items: center;
@@ -19,13 +20,12 @@ body{
 
 .container {
     width: 900px;
-    height:177px;
+    height: 177px;
     overflow: auto;
     margin: 0 auto;
     border-radius: 20px;
-    
-}
 
+}
 
 .card {
     width: 100%;
@@ -36,7 +36,6 @@ body{
     align-items: center;
     gap: 200px;
 }
-
 
 .images {
     width: auto;
@@ -50,8 +49,6 @@ body{
     gap: 15px;
 }
 
-
-
 .card_btn_group {
     display: flex;
     flex-direction: column;
@@ -59,49 +56,48 @@ body{
 
 }
 
-
 .card_background {
     background-color: #d0ff00;
 }
-.box_i{
+
+.box_i {
     width: 200px;
-    height: 40px;   
+    height: 40px;
     border-radius: 5px;
     background-color: white;
     margin-left: -30px;
-     
+
 }
 
-.box_i1{
+.box_i1 {
     width: 200px;
-    height: 40px;   
+    height: 40px;
     border-radius: 5px;
     background-color: white;
     margin-top: 10px;
     margin-left: 15px;
-  
 }
 
-.box_i3{
+.box_i3 {
     width: 200px;
-    height: 40px;   
+    height: 40px;
     border-radius: 5px;
     background-color: white;
     margin-left: -30px;
-
 }
 
-.box_i2{
+.box_i2 {
     width: 200px;
-    height: 40px;   
+    height: 40px;
     border-radius: 5px;
     background-color: white;
     margin-top: 15px;
     margin-left: 15px;
 }
-button{
+
+button {
     width: 100px;
-    height: 40px;   
+    height: 40px;
     border-radius: 10px;
     background-color: #11d611;
     margin-left: 15px;
@@ -110,26 +106,58 @@ button{
     transition: .5s;
     color: white;
 }
-button:hover{
+
+button:hover {
     background-color: transparent;
     color: #11d611;
     transition: .5s;
     border: 1.5px solid #11d611;
 }
-.box_i4{
+
+.box_i4 {
     width: 430px;
-    height: 40px;   
+    height: 40px;
     border-radius: 5px;
     background-color: white;
     margin-left: 10px;
     margin-top: 20px;
 }
-h1{
+
+h1 {
     text-align: center;
     color: white;
     margin-left: -190px;
 }
-input{
+
+input {
     border: none;
     cursor: pointer;
+}
+div{
+    animation: bounce 0.5s;
+}
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }

@@ -1,10 +1,10 @@
-const iEl = document.querySelector(".box_i")
-const i1El = document.querySelector(".box_i1")
-const i2El = document.querySelector(".box_i2")
-const i3El = document.querySelector(".box_i3")
-const i4El = document.querySelector(".box_i4")
-const btnEl = document.querySelector("#btn")
-const conEl = document.querySelector(".container")
+const iEl = document.querySelector(".box_i");
+const i1El = document.querySelector(".box_i1");
+const i2El = document.querySelector(".box_i2");
+const i3El = document.querySelector(".box_i3");
+const i4El = document.querySelector(".box_i4");
+const btnEl = document.querySelector("#btn");
+const conEl = document.querySelector(".container");
 
 
 btnEl.addEventListener("submit", (e) => {
